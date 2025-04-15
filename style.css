@@ -88,6 +88,11 @@ gap: 40px;
     
     }
 
+    .cards{       
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
 }
 @media(max-width: 576px){
     .container{
@@ -109,6 +114,11 @@ gap: 40px;
     flex-direction: column;
     gap: 8px;
     
+    }
+
+    .cards{       
+        grid-template-columns:1fr;
+       
     }
 
 }
