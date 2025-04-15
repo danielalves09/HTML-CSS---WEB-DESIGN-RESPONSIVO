@@ -28,7 +28,12 @@
 }
 @media(max-width: 576px){
     .container{
-       background-color: blueviolet;
+       padding: 0 5px;
    } 
+
+   .img{
+    width: 100%;
+
+   }
 
 }
