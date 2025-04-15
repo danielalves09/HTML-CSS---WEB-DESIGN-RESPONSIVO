@@ -53,6 +53,14 @@ gap: 40px;
 
 }
 
+.cards-desafio{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+
 
 
 /* Breakpoints*/
@@ -70,9 +78,11 @@ gap: 40px;
         padding: 0 10px;
    } 
 
+
+
 }
 
-@media(max-width: 768){
+@media(max-width: 768px){
     .container{
       padding: 0 10px;
    } 
@@ -91,6 +101,12 @@ gap: 40px;
     .cards{       
         grid-template-columns: 1fr 1fr;
        
+    }
+
+    .cards-desafio{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    
     }
 
 }
@@ -119,6 +135,12 @@ gap: 40px;
     .cards{       
         grid-template-columns:1fr;
        
+    }
+    .cards-desafio{
+       margin: 50px;
+        grid-template-columns:  1fr;
+      
+    
     }
 
 }
