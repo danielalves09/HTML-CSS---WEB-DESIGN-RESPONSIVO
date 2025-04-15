@@ -35,7 +35,13 @@ nav-menu li{
 }
 
 
+/*Main*/
 
+.flex-test{
+display: flex;
+gap: 40px;
+
+}
 
 
 /* Breakpoints*/
@@ -65,6 +71,12 @@ nav-menu li{
     row-gap: 8px;
    }
 
+   .flex-test{
+    flex-direction: column;
+    gap: 8px;
+    
+    }
+
 }
 @media(max-width: 576px){
     .container{
@@ -81,5 +93,11 @@ nav-menu li{
     align-items: center;
     row-gap: 15px;
    }
+
+   .flex-test{
+    flex-direction: column;
+    gap: 8px;
+    
+    }
 
 }
