@@ -33,6 +33,19 @@ ul{
     margin: 10px 0;
 }
 
+header ul li{
+    cursor: pointer;
+    border-bottom: solid 2px #000;
+
+}
+
+.nav-menu ul li:hover{
+    border-bottom: solid 2px #fff;
+    transition: .6s;
+
+
+}
+
 .nav-menu{
 display: flex;
 justify-content: space-between;
