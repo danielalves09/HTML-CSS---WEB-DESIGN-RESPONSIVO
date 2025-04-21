@@ -133,7 +133,7 @@ background-color: #5252e2;
     background-color: #8d8a8a;
 }
 
-.btn-blue:hover, .btn-grey:hover{
+.card:hover , .btn-blue:hover, .btn-grey:hover{
     transform: scale(1.05);
     transition: .6s;
 }
